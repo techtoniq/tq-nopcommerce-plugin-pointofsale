@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{523DF84D-EBB9-494F-A132-AAFC7B92D445}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{EA17A414-8DAE-4D28-8DCC-8B161FEDB8B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{DDC4485F-F4D4-4FC8-AD48-C47021CC43F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource", "Resource", "{799691E5-8C5F-4FDC-8156-E92E4119F369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nop.Plugin.Techtoniq.PointOfSale", "Src\Nop.Plugin.Techtoniq.PointOfSale\Nop.Plugin.Techtoniq.PointOfSale.csproj", "{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F9AEEE6-EA05-48DC-8F81-EEC6C3C25718} = {EA17A414-8DAE-4D28-8DCC-8B161FEDB8B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F2FB618-82C6-4778-A32B-9EB2C63502A3}
+	EndGlobalSection
+EndGlobal
